@@ -5,10 +5,10 @@ public class NummerTilOrd {
 	public static void main (String [] args) {
 		Scanner input = new Scanner(System.in);
 		int nummer, nummer1 , nummer2;
-		String string1[] = {" "," ","tjue", "tretti", "førti","femti","seksti","søtti","åtti","nitti","hundre"};
-		String string2[] = {" ","en","to","tre","fire","fem","seks","sju","åtte","ni","ti","ellve","tolv","tretten","fjorten","femten","seisten","søtten","atten","nitten"};
+		String string1[] = {" "," ","tjue", "tretti", "fÃ¸rti","femti","seksti","sÃ¸tti","Ã¥tti","nitti","hundre"};
+		String string2[] = {" ","en","to","tre","fire","fem","seks","sju","Ã¥tte","ni","ti","ellve","tolv","tretten","fjorten","femten","seisten","sÃ¸tten","atten","nitten"};
 		
-		System.out.println("Skriv inn et nummer mellom 1 og 99");
+		System.out.println("Skriv inn et nummer mellom 1 og 100");
 		nummer = input.nextInt();
 		
 		if ((nummer <1) || (nummer >100)){
